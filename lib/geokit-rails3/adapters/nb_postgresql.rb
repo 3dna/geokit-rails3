@@ -1,6 +1,6 @@
 module Geokit
   module Adapters
-    class Nb < Abstract
+    class NbPostgresql < Abstract
 
       def sphere_distance_sql(lat, lng, multiplier)
         %|
